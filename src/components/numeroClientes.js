@@ -1,0 +1,59 @@
+import React from "react";
+import "../css/clientes.css";
+import uno from '../assets/images/unapersona.png'
+import dos from '../assets/images/dospersonas.png'
+import tres from '../assets/images/trespersonas.png'
+import cuatro from '../assets/images/cuatropersonas.png'
+import cinco from '../assets/images/cincopersonas.png'
+import seis from '../assets/images/seispersonas.png'
+
+import { Link } from "react-router-dom";
+
+const Clientes = () => {
+    return (
+        <div>
+            <h1>¿Cuántas personas hay?</h1>
+            <div class="flex-container-clientes">
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">1</div>
+                        <div className="content-img"><img src={uno} /></div>
+                    </div>
+                </Link>
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">2</div>
+                        <div className="content-img"><img src={dos} /></div>
+                    </div>
+                </Link>
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">3</div>
+                        <div className="content-img"><img src={tres} /></div>
+                    </div>
+                </Link>
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">4</div>
+                        <div className="content-img"><img src={cuatro} /></div>
+                    </div>
+                </Link>
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">5</div>
+                        <div className="content-img"><img src={cinco} /></div>
+                    </div>
+                </Link>
+                <Link to="/Platillos" style={{ textDecoration: 'none' }}>
+                    <div class="flex-item-personas">
+                        <div className="numero">6</div>
+                        <div className="content-img"><img src={seis} /></div>
+                    </div>
+                </Link>
+
+            </div>
+        </div>
+    );
+};
+
+export default Clientes;  
