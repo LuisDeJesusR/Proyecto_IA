@@ -1,6 +1,7 @@
 import React from "react";
 import { TarjetaMesero } from "./TarjetaMesero";
 import ConsultaMeseros from "./ConsultaMeseros";
+import regresar from '../assets/images/regresar.png';
 
 import "../css/vistasBD.css"
 
@@ -11,7 +12,9 @@ export const ListaMeseros = () => {
 
   return (
     <>
-      <div>
+      <div className="content-items">
+      <Link to="/" style={{ textDecoration: 'none' }}><img className="img-cancelar" src={regresar} /></Link>
+        <h1>Selecciona tu nombre</h1>
         <ul className="lista-items">
             {meseros.map((mesero) => (
               <li><Link to="/Mesas" style={{ textDecoration: 'none' }}><li><TarjetaMesero mesero={mesero} /></li></Link></li>

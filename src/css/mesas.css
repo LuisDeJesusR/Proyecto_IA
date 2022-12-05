@@ -1,11 +1,13 @@
+.pantalla-mesas{
+    width: 70%;
+    margin: 0 auto;
+}
 .flex-container {
     display: flex;
     justify-content: center;
     /* align-items: center; */
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto;
 }
 
 .flex-item {
@@ -29,5 +31,10 @@ h1{
     font-size: 70px;
     font-weight: bold;
     text-align: center;
+    margin-top: 0px;
+}
+.img-cancelar{
+    float: left;
+    width: 7%;
 }
 

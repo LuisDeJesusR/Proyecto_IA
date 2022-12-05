@@ -6,8 +6,9 @@
 }
 
 .img-redonda {
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
+    width: 20%;
     border-radius: 25%;
 }
 

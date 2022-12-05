@@ -9,7 +9,8 @@ import Menu from "./components/menu1";
 import ListaMeseros from "./components/ListaMeseros";
 import ListaPlatillos from "./components/ListaPlatillos";
 import ListaBebidas from "./components/ListaBebidas";
-import ConfirmarOrden from "./components/ordencorrecta"
+import ConfirmarOrden from "./components/ordencorrecta";
+import Observaciones from "./components/Observaciones";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/Mesas" element={<Mesas/>} />
             <Route path="/Platillos" element={<ListaPlatillos/>} />
             <Route path="/Bebidas" element={<ListaBebidas/>} />
+            <Route path="/Observaciones" element={<Observaciones/>} />
             <Route path="/ConfirmarOrden" element={<ConfirmarOrden/>} />
           </Routes>
     </Router>

@@ -1,11 +1,13 @@
+.pantalla-clientes{
+    width: 70%;
+    margin: 0 auto;
+}
 .flex-container-clientes {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto;
 }
 h1{
     color:  #ec4434 ;
@@ -43,4 +45,8 @@ h1{
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+.img-cancelar{
+    margin-top: 25px;
+    width: 7%;
 }

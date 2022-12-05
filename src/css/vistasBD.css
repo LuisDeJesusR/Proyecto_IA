@@ -1,3 +1,7 @@
+.content-items{
+  width: 70%;
+  margin: 0 auto;
+}
 .lista-items {
   list-style-type: none;
 }
