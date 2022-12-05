@@ -19,6 +19,8 @@ const Observaciones = () => {
         var imgPLatillo1 = localStorage.getItem('imgPlatillo');
         var bebida1 = localStorage.getItem('Bebida');
         var imgBebida1 = localStorage.getItem('imgBebida');
+        var fruta1 = localStorage.getItem('Fruta');
+        var imgFruta1 = localStorage.getItem('imgFruta');
         var observacion1 = localStorage.getItem('Observacion');
         var ordenesListStorage = localStorage.getItem('ordenesList');
 
@@ -30,6 +32,8 @@ const Observaciones = () => {
             imgPlatillo : imgPLatillo1,
             bebida : bebida1,
             imgBebida : imgBebida1,
+            fruta : fruta1,
+            imgFruta : imgFruta1,
             observacion : observacion1
         }
 

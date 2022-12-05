@@ -23,7 +23,7 @@ export const ListaBebidas = () => {
         <h1>Selecciona una bebida</h1>
         <ul className="lista-items">
             {bebidas.map((bebida) => (
-              <li><Link onClick={() => saveBebida(bebida.Nombre, bebida.Foto)} to="/Observaciones" style={{ textDecoration: 'none' }}><ItemMenu item={bebida} /></Link></li>
+              <li><Link onClick={() => saveBebida(bebida.Nombre, bebida.Foto)} to="/Frutas" style={{ textDecoration: 'none' }}><ItemMenu item={bebida} /></Link></li>
             ))}
         </ul>
       </div>

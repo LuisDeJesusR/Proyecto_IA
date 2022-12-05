@@ -1,5 +1,7 @@
 import React, {useState , useEffect} from "react";
 import "../css/total.css";
+import terminar from "../assets/images/terminar.png";
+import { Link } from "react-router-dom";
 
 const Total = () => {
     //UseState para almacenar la lista generada
@@ -14,9 +16,9 @@ const Total = () => {
 
 
     return (
-        <body className="body-total">
+        <body className="pantalla-total">
             <div>
-                <h1 className="Encabezado-Total">Tienes que cobrar</h1>
+                <h1 className="Encabezado-Total">Su orden se ha enviado</h1>
                 <h1 className="Precio-Total">${total}</h1>
 
                 <div className="spinner">
@@ -24,8 +26,9 @@ const Total = () => {
                     <div className="bounce2"></div>
                     <div className="bounce3"></div>
                 </div>
+                <Link to="/Mesas" style={{ textDecoration: 'none' }}><img className="img-terminar" src={terminar}/></Link>
             </div>
-        </body>
+        </body>           
     );
 };
 
