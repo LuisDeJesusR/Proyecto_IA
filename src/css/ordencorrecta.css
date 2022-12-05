@@ -1,14 +1,13 @@
 .titulo-orden {
     text-align: center;
     color: #ee4036;
-    font-size: 70px;
+    font-size:75px;
     font-weight: bolder;
 }
 
 .img-redonda {
-    /* width: auto;
-    height: auto; */
-    width: 20%;
+    width: 150px;
+    height: 150px;
     border-radius: 25%;
 }
 
@@ -20,6 +19,8 @@
 
 .margenes {
     margin: 10px;
+    display:flex;
+    align-items:center;
     justify-content: flex-start;
 }
 
@@ -27,8 +28,34 @@
     align-items: center;
     justify-content: center;
     min-height: 50vh;
-    width: 70%;
+    width:fit-content;
     display: block;
     background-color: #ee4036;
     margin: auto;
+}
+p{
+    text-align:left;
+    color: white;
+    font-weight: bolder;
+    margin-left: 2%;
+    font-size:50px;
+}
+.btn-redonda {
+    width: 100%;
+    border-radius: 25%;
+}
+@media screen and (max-width: 660px) {
+    p{
+        font-size:25px;
+    }
+    .img-redonda{
+        width:75px;
+        height:75px;
+    }
+    .btn-redonda {
+        width: 50%;
+    }
+    .titulo-orden{
+        font-size:50px;
+    }
 }
