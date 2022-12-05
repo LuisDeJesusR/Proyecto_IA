@@ -1,11 +1,17 @@
-.body-total {
+.pantalla-total {
   background-color: #ec4434;
   display: flex;
   flex-direction: column;
   height:100vh;
   margin:0;
-}
 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.img-terminar{
+  width: 20%;
+}
 .Encabezado-Total {
   color: white;
   font-size: 100px;
