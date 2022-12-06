@@ -9,14 +9,19 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
-
+import { getAuth, signOut } from "firebase/auth";
 import { Link } from "react-router-dom";
+import { firebaseApp } from "../firebase/firebaseConfig";
+import Button from "@material-ui/core/Button";
+import { ColorLens } from "@material-ui/icons";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   textAlign: 'center',
 }));
+
+const auth = getAuth(firebaseApp);
 
 const MenuUsuario = () => {
 
@@ -33,6 +38,9 @@ const MenuUsuario = () => {
         <div className="Item">
         <img className="boton_maestra" src={maestra} onClick="" /><h3 className="maestra">MAESTRA</h3>
         </div>
+      </div>
+      <div className="boton-center">
+      <Button style={{backgroundColor:"#b2dafa", fontWeight:"bolder"}} variant="contained" size="large" onClick={()=>signOut(auth)}>Cerrar Sesión</Button>
       </div>
     </React.Fragment>
   );
