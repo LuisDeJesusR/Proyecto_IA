@@ -12,6 +12,7 @@ function ConsultaMenu(coleccion) {
     menu.forEach((item) => {
       prevMenu.push({
         IdItem: item.id,
+        Numero: item.data().numero,
         Nombre: item.data().nombre,
         Foto: item.data().imagen,
       });

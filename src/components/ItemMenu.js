@@ -13,6 +13,7 @@ export function ItemMenu({ item, bandera }) {
       <div className={Clase} key={item.IdItem}>
         <img src={item.Foto} alt={item.Nombre} className="imagen-item" />
         <div className="contenedor-nombre">
+          <p className="nombre-item">{item.Numero}</p>
           <p className="nombre-item">{item.Nombre}</p>
         </div>
       </div>
