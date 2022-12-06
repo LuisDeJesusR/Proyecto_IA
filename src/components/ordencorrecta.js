@@ -43,6 +43,9 @@ const ConfirmarOrden = () => {
                   <img className="img-redonda" src={item.imgBebida} width={"80%"} /><p className="platillos">{item.bebida}</p>
                 </Grid>
                 <Grid container className="margenes">
+                  <img className="img-redonda" src={item.imgFruta} width={"80%"} /><p className="platillos">{item.fruta}</p>
+                </Grid>
+                <Grid container className="margenes">
                   <p>Observaciones: {item.observacion}</p>
                 </Grid>
               </React.Fragment>
