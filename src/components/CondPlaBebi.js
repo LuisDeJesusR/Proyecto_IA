@@ -4,9 +4,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -14,9 +14,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -24,9 +24,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -34,9 +34,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -44,9 +44,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -54,9 +54,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -64,9 +64,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -74,9 +74,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -84,9 +84,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -94,9 +94,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }
@@ -104,9 +104,9 @@ function RecomendarFruta(platillo, bebida) {
         if (bebida == "café"){
             return("Melones con Cotege")
         } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
-        } else if (bebida == "Leche"){
-            return("Manzana, Piña y Fresas con Yogurt");
+            return("Manzana, Piña y Fresa con Yogurt");
+        } else if (bebida == "Jugo"){
+            return("Manzana, Piña y Fresa con Yogurt");
         } else{
             return("Melones con Cotege")
         }

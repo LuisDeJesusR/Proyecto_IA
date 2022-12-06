@@ -2,7 +2,7 @@ import React from "react";
 import { ItemMenu } from "./ItemMenu";
 import ConsultaMenu from "./ConsultaMenu";
 import cancelar from '../assets/images/cancelar.png';
-import ClienteActual from "./ClienteActual"
+import ClienteActual from "./ClienteActual";
 
 import "../css/vistasBD.css"
 

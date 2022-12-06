@@ -4,7 +4,7 @@ import cancelar from '../assets/images/cancelar.png';
 import cancel from '../assets/images/cancel.png';
 import aceptar from "../assets/images/sucess.png";
 import { Link } from "react-router-dom";
-
+import ClienteActual from "./ClienteActual";
 
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
@@ -73,6 +73,7 @@ const Observaciones = () => {
         <div className="pantalla-observaciones">
             <Link to="/Meseros" style={{ textDecoration: 'none' }}><img className="img-cancelar" src={cancelar} /></Link>
             <h1>Observaciones</h1>
+            <h1 className="cliente-actual"><ClienteActual /></h1>
             <div className="content-input">
                 <textarea id="txtObservacion" className="input-observaciones" name="textarea" placeholder="Escribe aquí las observaciones"></textarea>
             </div>

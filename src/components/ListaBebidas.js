@@ -3,6 +3,7 @@ import { ItemMenu } from "./ItemMenu";
 import ConsultaMenu from "./ConsultaMenu";
 import cancelar from '../assets/images/cancelar.png';
 import RecomendarBebida from "./CondicionesPlatillo";
+import ClienteActual from "./ClienteActual";
 
 import "../css/vistasBD.css"
 
@@ -35,6 +36,7 @@ export const ListaBebidas = () => {
       <div className="content-items">
         <Link to="/Meseros" style={{ textDecoration: 'none' }}><img className="img-cancelar" src={cancelar} /></Link>
         <h1>Selecciona una bebida</h1>
+        <h1 className="cliente-actual"><ClienteActual /></h1>
         <ul className="lista-items">
           {bebidas.map((bebida) => (
             <li><Link onClick={() => saveBebida(bebida.Nombre, bebida.Foto)} to="/Frutas" style={{ textDecoration: 'none' }}><ItemMenu item={bebida} bandera={bebida.Nombre == bebidaRecomendada ? true : false} /></Link></li>
