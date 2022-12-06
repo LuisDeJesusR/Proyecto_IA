@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { db } from "../firebase/firebaseConfig";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, orderBy, query } from "firebase/firestore";
 
 function ConsultaMenu(coleccion) {
   const [menu, setMenu] = useState([]);
 
   const obtenerMenu = async () => {
-    const menu = await getDocs(collection(db, coleccion));
+    const menu = await getDocs(query(collection(db, coleccion), orderBy("numero", "asc")));
     const prevMenu = [];
 
     menu.forEach((item) => {
