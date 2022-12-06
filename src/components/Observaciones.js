@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "../css/observaciones.css";
 import cancelar from '../assets/images/cancelar.png';
+import cancel from '../assets/images/cancel.png';
 import aceptar from "../assets/images/sucess.png";
 import { Link } from "react-router-dom";
+
+
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 const Observaciones = () => {
     //Uso de useState
@@ -70,9 +76,13 @@ const Observaciones = () => {
             <div className="content-input">
                 <textarea id="txtObservacion" className="input-observaciones" name="textarea" placeholder="Escribe aquí las observaciones"></textarea>
             </div>
-            <div className="content-button">
-                <Link onClick={()=> saveObservacion(document.getElementById("txtObservacion").value)} to={direccion} style={{ textDecoration: 'none' }}><img className="img-aceptar" src={aceptar} /></Link>
-            </div>
+            
+            <Container >
+                <Stack direction="row" justifyContent="center" alignItems="center" spacing={4} marginTop="2%">
+                    <Button onClick={()=> saveObservacion("")} size="50 px" borderRadius={12} type="button"><Link to={direccion} style={{ textDecoration: 'none' }}><img className="btn-redonda" src={cancel} /></Link></Button>
+                    <Button onClick={()=> saveObservacion(document.getElementById("txtObservacion").value)} size="50 px" borderRadius={12} type="button"><Link to={direccion} style={{ textDecoration: 'none' }}><img className="btn-redonda" src={aceptar} /></Link></Button>
+                </Stack>
+            </Container>
         </div>
     );
 };

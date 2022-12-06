@@ -21,11 +21,6 @@ const Total = () => {
                 <h1 className="Encabezado-Total">Su orden se ha enviado</h1>
                 <h1 className="Precio-Total">${total}</h1>
 
-                <div className="spinner">
-                    <div className="bounce1"></div>
-                    <div className="bounce2"></div>
-                    <div className="bounce3"></div>
-                </div>
                 <Link to="/Mesas" style={{ textDecoration: 'none' }}><img className="img-terminar" src={terminar}/></Link>
             </div>
         </body>           

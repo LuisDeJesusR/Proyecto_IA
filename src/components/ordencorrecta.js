@@ -32,32 +32,31 @@ const ConfirmarOrden = () => {
     <React.Fragment>
       <h1 className="titulo-orden">¿Es correcto?</h1>
       <Container display="grid" placecontent="center">
-        <Box className="caja" borderRadius={12} >
-          <Grid container >
+          
             {items.map((item) => (
-              <React.Fragment>
-                <Grid container className="margenes">
-                  <img className="img-redonda" src={item.imgPlatillo} width={"80%"} /><p className="platillos">{item.platillo}</p>
-                </Grid>
-                <Grid container className="margenes">
-                  <img className="img-redonda" src={item.imgBebida} width={"80%"} /><p className="platillos">{item.bebida}</p>
-                </Grid>
-                <Grid container className="margenes">
-                  <img className="img-redonda" src={item.imgFruta} width={"80%"} /><p className="platillos">{item.fruta}</p>
-                </Grid>
-                <Grid container className="margenes">
-                  <p>Observaciones: {item.observacion}</p>
-                </Grid>
-              </React.Fragment>
+              <Grid container>
+                <Box className="caja" borderRadius={12} >
+                  <Grid container className="margenes">
+                    <img className="img-redonda" src={item.imgPlatillo} width={"80%"} /><p className="platillos">{item.platillo}</p>
+                  </Grid>
+                  <Grid container className="margenes">
+                    <img className="img-redonda" src={item.imgBebida} width={"80%"} /><p className="platillos">{item.bebida}</p>
+                  </Grid>
+                  <Grid container className="margenes">
+                    <img className="img-redonda" src={item.imgFruta} width={"80%"} /><p className="platillos">{item.fruta}</p>
+                  </Grid>
+                  <Grid container className="margenes">
+                    <p>Observaciones: {item.observacion}</p>
+                  </Grid>
+                </Box>
+              </Grid>
             ))}
-          </Grid>
-        </Box>
       </Container>
 
       <Container >
         <Stack direction="row" justifyContent="center" alignItems="center" spacing={4} marginTop="2%">
-          <Button size="50 px" borderRadius={12} type="button"><Link to="/Total" style={{ textDecoration: 'none' }}><img className="btn-redonda" src={aceptar} /></Link></Button>
           <Button size="50 px" borderRadius={12} type="button"><Link to="/Mesas" style={{ textDecoration: 'none' }}><img className="btn-redonda" src={cancelar} /></Link></Button>
+          <Button size="50 px" borderRadius={12} type="button"><Link to="/Total" style={{ textDecoration: 'none' }}><img className="btn-redonda" src={aceptar} /></Link></Button>
         </Stack>
       </Container>
     </React.Fragment>
