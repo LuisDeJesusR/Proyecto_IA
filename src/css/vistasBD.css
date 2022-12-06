@@ -15,6 +15,15 @@
   margin-top: 15px;
 }
 
+.contenedor-recomendado {
+  display: flex;
+  width: 900px;
+  align-items: center;
+  /* margin: 15px; */
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
 .imagen-item {
   border-radius: 20px;
   height: 200px;
@@ -30,6 +39,7 @@
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
 
 .nombre-item {
   margin-left: 20px;
