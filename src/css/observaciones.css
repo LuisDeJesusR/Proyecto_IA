@@ -11,6 +11,7 @@
    width: 80%;
    resize: none;
    height: 50vh;
+   font-size: xx-large;
 }
 .img-aceptar{
     padding-top: 5px;
@@ -20,9 +21,4 @@
     padding-right: 45%; */
     margin-left: 50%;
   transform: translateX(-50%);
-}
-.content-button{
-    background-color: blue;
-    /* display: flex;
-    justify-content: center; */
 }

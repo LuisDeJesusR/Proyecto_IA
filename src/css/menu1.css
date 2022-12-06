@@ -47,3 +47,10 @@ h3.maestra{
     text-align: center;
     font-size: 35px;
 }
+.boton-center{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    font-weight: bolder;
+}
